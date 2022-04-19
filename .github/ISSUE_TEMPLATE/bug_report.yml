@@ -12,7 +12,7 @@ body:
   validations:
     required: true
       
-- type: checkbox
+- type: checkboxes
   id: EdgeDevice
   attributes:
     label: Industrial Edge device type
@@ -46,7 +46,7 @@ body:
     label: Version of the used components
     description: Which versions of the Industrial Edge components did you use?
     placeholder: "eg. Industrial Edge Device: V1.2.0-56"
-  render: shell
+    render: shell
   validations:
     required: true
       
