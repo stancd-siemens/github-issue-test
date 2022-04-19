@@ -16,7 +16,7 @@ body:
   attributes:
     label: Summary
     description: Add summary of the found bug
-    render: markdown
+    render:
   validations:
     required: true
       
