@@ -1,8 +1,6 @@
 name: BugReport
 description: Create a report to help us improve
 title: Bug Report
-labels: ''
-assignees: ''
 body:
 
   - type: input
