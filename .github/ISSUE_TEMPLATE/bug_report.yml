@@ -3,7 +3,6 @@ description: Create a report to help us improve
 title: Bug Report
 body:
 
-body:
 - type: markdown
   value: "## Welcome!"
 - type: markdown
