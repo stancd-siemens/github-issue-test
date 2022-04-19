@@ -2,95 +2,95 @@ name: Bug Report
 description: Create a report to help us improve
 title: Bug Report
 body:
-  - type: textarea
-    id: Summary
-    attributes:
-      label: Summary
-      description: Add summary of the found bug
-      render: shell
-    validations:
-      required: true
+  
+- type: textarea
+  id: Summary
+  attributes:
+    label: Summary
+    description: Add summary of the found bug
+    render: shell
+  validations:
+    required: true
       
-  - type: checkbox
-    id: EdgeDevice
-    attributes:
-      label: Industrial Edge device type
-      description: What Industrial Edge device do you use?
-      options:
-        - label: IPC 227E
-        - label: 427E
-        - label: 127E
-        - label: IEVD
-    validations:
-      required: true
+- type: checkbox
+  id: EdgeDevice
+  attributes:
+    label: Industrial Edge device type
+    description: What Industrial Edge device do you use?
+    options:
+      - label: IPC 227E
+      - label: 427E
+      - label: 127E
+      - label: IEVD
+  validations:
+    required: true
    
-   - type: dropdown
-    id: EdgeManagement
-    attributes:
-      label: Industrial Edge Management version
-      description: What Industrial Edge Management version do you use?
-      options:
-        - 1.4.11
-        - 1.4.3
-        - 1.3.10
-        - 1.2.16
-        - 1.2.14
-        - 1.1.16
-    validations:
-      required: true
+- type: dropdown
+  id: EdgeManagement
+  attributes:
+    label: Industrial Edge Management version
+    description: What Industrial Edge Management version do you use?
+    options:
+      - 1.4.11
+      - 1.4.3
+      - 1.3.10
+      - 1.2.16
+      - 1.2.14
+      - 1.1.16
+  validations:
+    required: true
    
-  - type: textarea
-    id: Versions
-    attributes:
-      label: Version of the used components
-      description: Which versions of the Industrial Edge components did you use?
-      placeholder: "eg. Industrial Edge Device: V1.2.0-56"
-      render: shell
-    validations:
-      required: true
+- type: textarea
+  id: Versions
+  attributes:
+    label: Version of the used components
+    description: Which versions of the Industrial Edge components did you use?
+    placeholder: "eg. Industrial Edge Device: V1.2.0-56"
+  render: shell
+  validations:
+    required: true
       
-  - type: textarea
-    id: StepsToReproduce
-    attributes:
-      label: Steps to reproduce
-      description: Please describe in detail the steps to reproduce the described behaviour.
-      render: shell
-    validations:
-      required: true
+- type: textarea
+  id: StepsToReproduce
+  attributes:
+    label: Steps to reproduce
+    description: Please describe in detail the steps to reproduce the described behaviour.
+    render: shell
+  validations:
+    required: true
       
-  - type: textarea
-    id: CurrentBehavior
-    attributes:
-      label: What is the current bug behavior?
-      description: Describe what actually happens.
-      render: shell
-    validations:
-      required: true
+- type: textarea
+  id: CurrentBehavior
+  attributes:
+    label: What is the current bug behavior?
+    description: Describe what actually happens.
+    render: shell
+  validations:
+    required: true
       
-  - type: textarea
-    id: ExpectedBehavior
-    attributes:
-      label: What is the expected correct behavior?
-      description: How should the app behave?
-      render: shell
-    validations:
-      required: true
+- type: textarea
+  id: ExpectedBehavior
+  attributes:
+    label: What is the expected correct behavior?
+    description: How should the app behave?
+    render: shell
+  validations:
+    required: true
       
-  - type: textarea
-    id: Logs
-    attributes:
-      label: Relevant logs and/or screenshots
-      description: Please add relevant screenshots and logs.
-      render: shell
-    validations:
-      required: true
+- type: textarea
+  id: Logs
+  attributes:
+    label: Relevant logs and/or screenshots
+    description: Please add relevant screenshots and logs.
+    render: shell
+  validations:
+    required: true
       
-  - type: textarea
-    id: Code
-    attributes:
-      label: Line of code
-      description: Please refer to the dedicated line of code/ description if possible.
-      render: shell
-    validations:
-      required: true
-
+- type: textarea
+  id: Code
+  attributes:
+    label: Line of code
+    description: Please refer to the dedicated line of code/ description if possible.
+    render: shell
+  validations:
+    required: true
