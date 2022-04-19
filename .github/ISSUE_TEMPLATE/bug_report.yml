@@ -2,6 +2,14 @@ name: Bug Report
 description: Create a report to help us improve
 title: Bug Report
 body:
+
+body:
+- type: markdown
+  value: "## Welcome!"
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this bug!
   
 - type: textarea
   id: Summary
@@ -16,7 +24,7 @@ body:
   id: EdgeDevice
   attributes:
     label: Industrial Edge device type
-    description: What Industrial Edge device do you use?
+    description: What Industrial Edge device do you use? ![Image](./image.jpg)
     options:
       - label: IPC 227E
       - label: 427E
