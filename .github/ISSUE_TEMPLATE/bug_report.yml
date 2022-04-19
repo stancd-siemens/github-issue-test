@@ -11,7 +11,7 @@ body:
       render: shell
     validations:
       required: true
-   
+      
   - type: checkbox
     id: EdgeDevice
     attributes:
